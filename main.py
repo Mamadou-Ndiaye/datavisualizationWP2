@@ -7,7 +7,7 @@ import plotly.express as px
 
 # This dataframe has 244 lines, but 4 distinct values for `day`
 df = px.data.tips()
-data = pd.read_csv("E:/COUR/Master2BI/These/donnee Alsocovid/wp2/resultats.csv")
+data = pd.read_csv("/resultats.csv")
 valeurs = [
     ('intervalAge','age'),
     ('donneesWP2/donnee_socio/religion','confession religieuse'),
